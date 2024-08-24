@@ -1,0 +1,23 @@
+.layer{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.418);
+    z-index: 999 !important;
+    transform: translateY(100%);
+    transition: all 0.6s ease-in-out;
+}
+.anim:hover .layer{
+    transform: translateY(0);
+
+}
+
+.outer-shadow{
+    font-weight: 900;
+    font-size: 40px;
+}
+  
+
